@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtrar Productos por categoria</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Filtrar Productos por Categoría</h1>
+
+    <!-- Formulario para ingresar la categoría -->
+    <form id="formulario">
+        <label for="categoria">Ingresa la categoría:</label>
+        <input type="text" id="categoria" name="categoria" placeholder="Ej. Electrónica, Muebles, Ropa" required>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <!-- Lista donde se mostrarán los productos filtrados -->
+     <h2>Resultados</h2>
+    <ul id="lista-productos"></ul>
+
+    <!-- Enlazamos el archivo JavaScript -->
+    <script src="Clase3.js"></script>
+    
+</body>
+</html>
